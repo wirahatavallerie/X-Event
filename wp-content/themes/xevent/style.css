@@ -1,0 +1,111 @@
+/* Theme Name: Event X
+Author: Vallerie Wirahata
+Version: 1.0 */
+
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+.head{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+    height: 50px;
+    padding: 5px 30px;
+}
+
+.left-header{
+    float: left;
+}
+
+.bar-btn{
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.sidebar{
+    float: left;
+}
+
+.side-bar{
+    width: 300px;
+    height: 100vh;
+    background-color: white;
+    top: 0;
+    left: 0;
+    position: fixed;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .2);
+    display: none;
+}
+
+.bar{
+    width: 30px;
+    height: 5px;
+    background-color: #839893;
+    position: relative;
+    margin-top: 5px;
+}
+
+.logo{
+    float: left;
+    margin-top: -7px;
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+}
+
+.right-header{
+    float: right;
+}
+
+.menu-header-menu-container{
+    float: left;
+    margin: 8px 10px;
+}
+
+#menu-header-menu{
+    list-style: none;
+}
+
+#menu-header-menu li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#menu-header-menu li a{
+    text-decoration: none;
+    color: black;
+}
+
+.header-menu-access{
+    float: left;
+}
+
+.header-menu-access div{
+    float: left;
+    margin: 3px 10px 0 0;
+}
+
+.signin{
+    border-radius: 8px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    background: #D4E1E7;
+    color: white;
+}
+
+.login{
+    border-radius: 8px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    background: #E9D7D7;
+    color: white;
+}
