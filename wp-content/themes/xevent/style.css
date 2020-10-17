@@ -48,7 +48,8 @@ body{
 .bar{
     width: 30px;
     height: 5px;
-    background-color: #839893;
+    background-color: #6fadca;
+    border-radius: 2px;
     position: relative;
     margin-top: 5px;
 }
@@ -83,15 +84,22 @@ body{
 }
 
 #menu-header-menu li a{
-    text-decoration: none;
     color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 .header-menu-access{
     float: left;
 }
 
-.header-menu-access div{
+.header-menu-access a{
     float: left;
     margin: 3px 10px 0 0;
 }
@@ -105,14 +113,12 @@ body{
 }
 
 .signin{
-    background: #D4E1E7;
+    background: #6fadca;
 }
 
 .login{
-    background: #E9D7D7;
+    background: #cc5d5d;
 }
-
-
 
 .jssora02l, .jssora02r {
     display: block;

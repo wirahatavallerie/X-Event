@@ -27,8 +27,8 @@
                     wp_nav_menu('header-menu')
                 ?>
                 <div class="header-menu-access">
-                    <div class="access-btn signin">Sign In</div>
-                    <div class="access-btn login">Login</div>
+                    <a class="access-btn signin" href="<?php echo wp_registration_url()?>">Sign In</a>
+                    <a class="access-btn login" href="<?php echo wp_login_url();?>">Login</a>
                 </div>
             </div>
         </div>
